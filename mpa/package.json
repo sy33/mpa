@@ -1,0 +1,17 @@
+{
+  "name": "mpa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : "node app.js"
+    
+  },
+  "author": "",
+  "license": "ISC"
+}

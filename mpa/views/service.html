@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            html,body{
+                margin:0;
+                padding:0;
+            }
+            header{
+                background-color:antiquewhite;
+                height:80px;
+                posirion:relative;
+            }
+
+            header> .logo{
+                position:absolute;
+                left:16px;
+                top:0;
+                line-height:80px;
+            }
+            header>nav{
+                position:absolute;
+                right:0;
+                top:0;
+            }
+            header>nav>ul{
+                display: flex;
+                list-style:none;
+                margin:0;
+            }
+            header>nav>li{
+                line-height:80px;
+                padding:16px;
+
+            }  
+            header>nav>li >a{display:block;}          
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class='logo'>
+                Logo
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/service">Service</a></li>
+                    <li><a href="/product">Product</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h1>Index</h1>
+            <div>
+                <%= message %>
+            </div>
+            <div>
+                <%= date %>
+            </div>
+        </section>
+        
+    </body>
+</html>
